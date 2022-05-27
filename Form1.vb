@@ -331,6 +331,11 @@
         A7.BackColor = Color.PeachPuff
         A8.BackColor = Color.PeachPuff
         A9.BackColor = Color.PeachPuff
+
+        lblPlayer1.Text = "0"
+        lblPlayer2.Text = "0"
+
+
     End Sub
 
     Private Sub btnNewGame_Click(sender As Object, e As EventArgs) Handles btnNewGame.Click
