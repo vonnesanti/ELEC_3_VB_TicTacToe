@@ -188,39 +188,111 @@
     End Sub
 
     Private Sub A2_Click(sender As Object, e As EventArgs) Handles A2.Click
-
+        If check = False Then
+            A2.Text = "O"
+            check = True
+        Else
+            A2.Text = "X"
+            check = False
+        End If
+        winchecker()
+        A2.Enabled = False
     End Sub
 
     Private Sub A3_Click(sender As Object, e As EventArgs) Handles A3.Click
-
+        If check = False Then
+            A3.Text = "O"
+            check = True
+        Else
+            A3.Text = "X"
+            check = False
+        End If
+        winchecker()
+        A3.Enabled = False
     End Sub
 
     Private Sub A6_Click(sender As Object, e As EventArgs) Handles A6.Click
-
+        If check = False Then
+            A6.Text = "O"
+            check = True
+        Else
+            A6.Text = "X"
+            check = False
+        End If
+        winchecker()
+        A6.Enabled = False
     End Sub
 
     Private Sub A9_Click(sender As Object, e As EventArgs) Handles A9.Click
-
+        If check = False Then
+            A9.Text = "O"
+            check = True
+        Else
+            A9.Text = "X"
+            check = False
+        End If
+        winchecker()
+        A9.Enabled = False
     End Sub
 
     Private Sub A1_Click(sender As Object, e As EventArgs) Handles A1.Click
-
+        If check = False Then
+            A1.Text = "O"
+            check = True
+        Else
+            A1.Text = "X"
+            check = False
+        End If
+        winchecker()
+        A1.Enabled = False
     End Sub
 
     Private Sub A5_Click(sender As Object, e As EventArgs) Handles A5.Click
-
+        If check = False Then
+            A5.Text = "O"
+            check = True
+        Else
+            A5.Text = "X"
+            check = False
+        End If
+        winchecker()
+        A5.Enabled = False
     End Sub
 
     Private Sub A4_Click(sender As Object, e As EventArgs) Handles A4.Click
-
+        If check = False Then
+            A4.Text = "O"
+            check = True
+        Else
+            A4.Text = "X"
+            check = False
+        End If
+        winchecker()
+        A4.Enabled = False
     End Sub
 
     Private Sub A7_Click(sender As Object, e As EventArgs) Handles A7.Click
-
+        If check = False Then
+            A7.Text = "O"
+            check = True
+        Else
+            A7.Text = "X"
+            check = False
+        End If
+        winchecker()
+        A7.Enabled = False
     End Sub
 
     Private Sub A8_Click(sender As Object, e As EventArgs) Handles A8.Click
-
+        If check = False Then
+            A8.Text = "O"
+            check = True
+        Else
+            A8.Text = "X"
+            check = False
+        End If
+        winchecker()
+        A8.Enabled = False
     End Sub
 
 
@@ -296,6 +368,10 @@
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
+
+    Private Sub buttonClick(sender As Object, e As EventArgs) Handles A9.AutoSizeChanged, A8.AutoSizeChanged, A7.AutoSizeChanged, A6.AutoSizeChanged, A5.AutoSizeChanged, A4.AutoSizeChanged, A3.AutoSizeChanged, A2.AutoSizeChanged, A1.AutoSizeChanged
 
     End Sub
 End Class
