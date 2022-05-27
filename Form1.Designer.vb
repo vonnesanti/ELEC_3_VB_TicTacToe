@@ -26,16 +26,16 @@ Partial Class Form1
         Me.A2 = New System.Windows.Forms.Button()
         Me.A3 = New System.Windows.Forms.Button()
         Me.A4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.A5 = New System.Windows.Forms.Button()
+        Me.A6 = New System.Windows.Forms.Button()
+        Me.A7 = New System.Windows.Forms.Button()
+        Me.A8 = New System.Windows.Forms.Button()
+        Me.A9 = New System.Windows.Forms.Button()
+        Me.btnNewGame = New System.Windows.Forms.Button()
+        Me.btnRestart = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.txtbxPlayer2 = New System.Windows.Forms.TextBox()
+        Me.txtbxPlayer1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
@@ -76,93 +76,93 @@ Partial Class Form1
         Me.A4.Text = "Button4"
         Me.A4.UseVisualStyleBackColor = True
         '
-        'Button5
+        'A5
         '
-        Me.Button5.Location = New System.Drawing.Point(93, 126)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 71)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.A5.Location = New System.Drawing.Point(93, 126)
+        Me.A5.Name = "A5"
+        Me.A5.Size = New System.Drawing.Size(75, 71)
+        Me.A5.TabIndex = 4
+        Me.A5.Text = "Button5"
+        Me.A5.UseVisualStyleBackColor = True
         '
-        'Button6
+        'A6
         '
-        Me.Button6.Location = New System.Drawing.Point(174, 126)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 71)
-        Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Button6"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.A6.Location = New System.Drawing.Point(174, 126)
+        Me.A6.Name = "A6"
+        Me.A6.Size = New System.Drawing.Size(75, 71)
+        Me.A6.TabIndex = 5
+        Me.A6.Text = "Button6"
+        Me.A6.UseVisualStyleBackColor = True
         '
-        'Button7
+        'A7
         '
-        Me.Button7.Location = New System.Drawing.Point(12, 203)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 71)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Button7"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.A7.Location = New System.Drawing.Point(12, 203)
+        Me.A7.Name = "A7"
+        Me.A7.Size = New System.Drawing.Size(75, 71)
+        Me.A7.TabIndex = 6
+        Me.A7.Text = "Button7"
+        Me.A7.UseVisualStyleBackColor = True
         '
-        'Button8
+        'A8
         '
-        Me.Button8.Location = New System.Drawing.Point(93, 203)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(75, 71)
-        Me.Button8.TabIndex = 7
-        Me.Button8.Text = "Button8"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.A8.Location = New System.Drawing.Point(93, 203)
+        Me.A8.Name = "A8"
+        Me.A8.Size = New System.Drawing.Size(75, 71)
+        Me.A8.TabIndex = 7
+        Me.A8.Text = "Button8"
+        Me.A8.UseVisualStyleBackColor = True
         '
-        'Button9
+        'A9
         '
-        Me.Button9.Location = New System.Drawing.Point(174, 203)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(75, 71)
-        Me.Button9.TabIndex = 8
-        Me.Button9.Text = "Button9"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.A9.Location = New System.Drawing.Point(174, 203)
+        Me.A9.Name = "A9"
+        Me.A9.Size = New System.Drawing.Size(75, 71)
+        Me.A9.TabIndex = 8
+        Me.A9.Text = "Button9"
+        Me.A9.UseVisualStyleBackColor = True
         '
-        'Button10
+        'btnNewGame
         '
-        Me.Button10.Location = New System.Drawing.Point(12, 301)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(75, 23)
-        Me.Button10.TabIndex = 9
-        Me.Button10.Text = "Button10"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.btnNewGame.Location = New System.Drawing.Point(12, 301)
+        Me.btnNewGame.Name = "btnNewGame"
+        Me.btnNewGame.Size = New System.Drawing.Size(75, 23)
+        Me.btnNewGame.TabIndex = 9
+        Me.btnNewGame.Text = "Button10"
+        Me.btnNewGame.UseVisualStyleBackColor = True
         '
-        'Button11
+        'btnRestart
         '
-        Me.Button11.Location = New System.Drawing.Point(93, 301)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(75, 23)
-        Me.Button11.TabIndex = 10
-        Me.Button11.Text = "Button11"
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.btnRestart.Location = New System.Drawing.Point(93, 301)
+        Me.btnRestart.Name = "btnRestart"
+        Me.btnRestart.Size = New System.Drawing.Size(75, 23)
+        Me.btnRestart.TabIndex = 10
+        Me.btnRestart.Text = "Button11"
+        Me.btnRestart.UseVisualStyleBackColor = True
         '
-        'Button12
+        'btnExit
         '
-        Me.Button12.Location = New System.Drawing.Point(174, 301)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(75, 23)
-        Me.Button12.TabIndex = 11
-        Me.Button12.Text = "Button12"
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.btnExit.Location = New System.Drawing.Point(174, 301)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.TabIndex = 11
+        Me.btnExit.Text = "Button12"
+        Me.btnExit.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txtbxPlayer2
         '
-        Me.TextBox1.Location = New System.Drawing.Point(385, 222)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 29)
-        Me.TextBox1.TabIndex = 12
+        Me.txtbxPlayer2.Location = New System.Drawing.Point(385, 222)
+        Me.txtbxPlayer2.Multiline = True
+        Me.txtbxPlayer2.Name = "txtbxPlayer2"
+        Me.txtbxPlayer2.Size = New System.Drawing.Size(100, 29)
+        Me.txtbxPlayer2.TabIndex = 12
         '
-        'TextBox2
+        'txtbxPlayer1
         '
-        Me.TextBox2.Location = New System.Drawing.Point(385, 187)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 29)
-        Me.TextBox2.TabIndex = 13
+        Me.txtbxPlayer1.Location = New System.Drawing.Point(385, 187)
+        Me.txtbxPlayer1.Multiline = True
+        Me.txtbxPlayer1.Name = "txtbxPlayer1"
+        Me.txtbxPlayer1.Size = New System.Drawing.Size(100, 29)
+        Me.txtbxPlayer1.TabIndex = 13
         '
         'Label1
         '
@@ -189,16 +189,16 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(497, 345)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.txtbxPlayer1)
+        Me.Controls.Add(Me.txtbxPlayer2)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.btnRestart)
+        Me.Controls.Add(Me.btnNewGame)
+        Me.Controls.Add(Me.A9)
+        Me.Controls.Add(Me.A8)
+        Me.Controls.Add(Me.A7)
+        Me.Controls.Add(Me.A6)
+        Me.Controls.Add(Me.A5)
         Me.Controls.Add(Me.A4)
         Me.Controls.Add(Me.A3)
         Me.Controls.Add(Me.A2)
@@ -216,16 +216,16 @@ Partial Class Form1
     Friend WithEvents A2 As Button
     Friend WithEvents A3 As Button
     Friend WithEvents A4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents A5 As Button
+    Friend WithEvents A6 As Button
+    Friend WithEvents A7 As Button
+    Friend WithEvents A8 As Button
+    Friend WithEvents A9 As Button
+    Friend WithEvents btnNewGame As Button
+    Friend WithEvents btnRestart As Button
+    Friend WithEvents btnExit As Button
+    Friend WithEvents txtbxPlayer2 As TextBox
+    Friend WithEvents txtbxPlayer1 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
 End Class
