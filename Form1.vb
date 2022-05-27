@@ -15,7 +15,170 @@
         A9.Enabled = False
     End Sub
 
+    Private Sub winchecker()
+        'For the X 
+        If A1.Text = "X" And A2.Text = "X" And A3.Text = "X" Then
+            A1.BackColor = Color.CadetBlue
+            A2.BackColor = Color.CadetBlue
+            A3.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 1 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer1.Text)
+            lblPlayer1.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
 
+        If A1.Text = "X" And A4.Text = "X" And A7.Text = "X" Then
+            A1.BackColor = Color.CadetBlue
+            A4.BackColor = Color.CadetBlue
+            A7.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 1 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer1.Text)
+            lblPlayer1.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A1.Text = "X" And A5.Text = "X" And A9.Text = "X" Then
+            A1.BackColor = Color.CadetBlue
+            A5.BackColor = Color.CadetBlue
+            A9.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 1 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer1.Text)
+            lblPlayer1.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A2.Text = "X" And A5.Text = "X" And A8.Text = "X" Then
+            A2.BackColor = Color.CadetBlue
+            A5.BackColor = Color.CadetBlue
+            A8.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 1 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer1.Text)
+            lblPlayer1.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A3.Text = "X" And A5.Text = "X" And A7.Text = "X" Then
+            A3.BackColor = Color.CadetBlue
+            A5.BackColor = Color.CadetBlue
+            A7.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 1 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer1.Text)
+            lblPlayer1.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A3.Text = "X" And A6.Text = "X" And A9.Text = "X" Then
+            A3.BackColor = Color.CadetBlue
+            A6.BackColor = Color.CadetBlue
+            A9.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 1 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer1.Text)
+            lblPlayer1.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A4.Text = "X" And A5.Text = "X" And A6.Text = "X" Then
+            A4.BackColor = Color.CadetBlue
+            A5.BackColor = Color.CadetBlue
+            A6.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 1 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer1.Text)
+            lblPlayer1.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A7.Text = "X" And A8.Text = "X" And A9.Text = "X" Then
+            A7.BackColor = Color.CadetBlue
+            A8.BackColor = Color.CadetBlue
+            A9.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 1 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer1.Text)
+            lblPlayer1.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        'For the O
+        If A1.Text = "O" And A2.Text = "O" And A3.Text = "O" Then
+            A1.BackColor = Color.CadetBlue
+            A2.BackColor = Color.CadetBlue
+            A3.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 2 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer2.Text)
+            lblPlayer2.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A1.Text = "O" And A4.Text = "O" And A7.Text = "O" Then
+            A1.BackColor = Color.CadetBlue
+            A4.BackColor = Color.CadetBlue
+            A7.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 2 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer2.Text)
+            lblPlayer2.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A1.Text = "O" And A5.Text = "O" And A9.Text = "O" Then
+            A1.BackColor = Color.CadetBlue
+            A5.BackColor = Color.CadetBlue
+            A9.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 2 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer2.Text)
+            lblPlayer2.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A2.Text = "O" And A5.Text = "O" And A8.Text = "O" Then
+            A2.BackColor = Color.CadetBlue
+            A5.BackColor = Color.CadetBlue
+            A8.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 2 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer2.Text)
+            lblPlayer2.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A3.Text = "O" And A5.Text = "O" And A7.Text = "O" Then
+            A3.BackColor = Color.CadetBlue
+            A5.BackColor = Color.CadetBlue
+            A7.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 2 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer2.Text)
+            lblPlayer2.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A3.Text = "O" And A6.Text = "O" And A9.Text = "O" Then
+            A3.BackColor = Color.CadetBlue
+            A6.BackColor = Color.CadetBlue
+            A9.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 2 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer2.Text)
+            lblPlayer2.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A4.Text = "O" And A5.Text = "O" And A6.Text = "O" Then
+            A4.BackColor = Color.CadetBlue
+            A5.BackColor = Color.CadetBlue
+            A6.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 2 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer2.Text)
+            lblPlayer2.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+        If A7.Text = "O" And A8.Text = "O" And A9.Text = "O" Then
+            A7.BackColor = Color.CadetBlue
+            A8.BackColor = Color.CadetBlue
+            A9.BackColor = Color.CadetBlue
+            MessageBox.Show("Player 2 Wins!", "TIC TAC TOE")
+            score = Convert.ToInt64(lblPlayer2.Text)
+            lblPlayer2.Text = Convert.ToString(score + 1)
+            buttonFalse()
+        End If
+
+    End Sub
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
@@ -59,6 +222,8 @@
     Private Sub A8_Click(sender As Object, e As EventArgs) Handles A8.Click
 
     End Sub
+
+
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Application.Exit()
