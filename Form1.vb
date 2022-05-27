@@ -61,11 +61,39 @@
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-
+        Application.Exit()
     End Sub
 
     Private Sub btnRestart_Click(sender As Object, e As EventArgs) Handles btnRestart.Click
+        A1.Enabled = True
+        A2.Enabled = True
+        A3.Enabled = True
+        A4.Enabled = True
+        A5.Enabled = True
+        A6.Enabled = True
+        A7.Enabled = True
+        A8.Enabled = True
+        A9.Enabled = True
 
+        A1.Text = ""
+        A2.Text = ""
+        A3.Text = ""
+        A4.Text = ""
+        A5.Text = ""
+        A6.Text = ""
+        A7.Text = ""
+        A8.Text = ""
+        A9.Text = ""
+
+        A1.BackColor = Color.PeachPuff
+        A2.BackColor = Color.PeachPuff
+        A3.BackColor = Color.PeachPuff
+        A4.BackColor = Color.PeachPuff
+        A5.BackColor = Color.PeachPuff
+        A6.BackColor = Color.PeachPuff
+        A7.BackColor = Color.PeachPuff
+        A8.BackColor = Color.PeachPuff
+        A9.BackColor = Color.PeachPuff
     End Sub
 
     Private Sub btnNewGame_Click(sender As Object, e As EventArgs) Handles btnNewGame.Click
